@@ -34,7 +34,7 @@ parser.add_argument('--n-hid', type=int, default=256,
 parser.add_argument('--do-prob', type=float, default=0.5,
                     help='Dropout rate.')
 parser.add_argument('--encoder', type=str, default='nmp',
-                    help='Encoder base/nmp')
+                    help='Encoder base/nmp ')
 parser.add_argument('--N-actors', type=int, default=64,
                     help='The amount of actors in the scene')
 parser.add_argument('--N-moving-actors', type=int, default=64,
