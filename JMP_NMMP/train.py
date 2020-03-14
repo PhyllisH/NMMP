@@ -19,7 +19,7 @@ from dataloader import load_dataset
 from visualization import Visualizer, AverageMeter, ProgressMeter
 from utils import displacement_error, compute_loss, rel_mat, final_displacement_error
 
-from parallel import DataParallelModel, DataParallelCriterion
+# from parallel import DataParallelModel, DataParallelCriterion
 
 # ===================== Args Definition ===================== #
 parser = argparse.ArgumentParser()
