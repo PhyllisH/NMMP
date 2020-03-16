@@ -10,10 +10,27 @@ Presented at [CVPR 2020 oral](http://cvpr2020.thecvf.com/)
 
 **Abstract:** Motion prediction is essential and challenging for autonomous vehicles and social robots. One challenge of motion prediction is to model the interaction among traffic actors, which could cooperate with each other to avoid collisions or form groups. To address this challenge, we propose neural motion message passing (NMMP) to explicitly model the interaction and learn representations for directed interactions between actors. Besides, we provide interpretability for interaction learning.
 
+
+<center class="half">
+    <img src="https://github.com/PhyllisH/NMMP/blob/master/images/Introduction.png" width="300"/>
+    <img src="https://github.com/PhyllisH/NMMP/blob/master/images/NMMP.png" width="300"/>
+</center>
+
 <div align="center">
 <img src="https://github.com/PhyllisH/NMMP/blob/master/images/Introduction.png" width = 60% height = 60%>
 </div>
 
+If you find this code useful in your research then please cite
+
+```
+@inproceedings{CMPNMMP:20,
+  author    = {Yue Hu, Siheng Chen, Ya Zhang, Xiao Gu},
+  title     = {Collaborative Motion Predication via Neural Motion Message Passing},
+  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  month     = {June},  
+  year      = {2020}
+}
+```
 
 ## Model
 The two frameworks are the same system under two different settings. (1) Two frameworks use the same NMMP to model interactions, and share the same architecture: individual and interactive branches. (2) Two frameworks provide distinct wrappers to handle different input formats and characteristics. JMP considers urban-driving scenes, which requires additional map information. Thus, JMP includes CNNs, while PMP does not; JMP considers vehicles and pedestrians, which requires to handle vehicle headings. Thus, JMP includes coordinate transforms, while PMP does not; PMP considers open-area scenes, where human behaviours are more uncertain. Thus PMP includes GAN, while JMP does not. Overall, those differences between two frameworks are small variations.
@@ -54,17 +71,6 @@ CUDA_VISIBLE_DEVICES=0 python train.py --encoder=nmp --use-nmp --mode=whole --ta
 CUDA_VISIBLE_DEVICES=0 python train.py --encoder=nmp --use-nmp --mode=eval --restore --load-folder=exp0 --tail=with_nmp
 ```
 
-## Citation
-
-```
-@inproceedings{CMPNMMP:20,
-  author    = {Yue Hu, Siheng Chen, Ya Zhang, Xiao Gu},
-  title     = {Collaborative Motion Predication via Neural Motion Message Passing},
-  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-  month     = {June},  
-  year      = {2020}
-}
-```
 
 ## References
 
