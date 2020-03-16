@@ -37,7 +37,7 @@ The two frameworks are the same system under two different settings. (1) Two fra
 
 ### Joint Pedestrian and Vehicle Motion Prediction
 <div align="left">
-<img src="https://github.com/PhyllisH/NMMP/blob/master/images/JMP-NMMP.png" width = 60% height = 60%>
+<img src="https://github.com/PhyllisH/NMMP/blob/master/images/JMP-NMMP.png" width = 55% height = 55%>
 </div>
 
 
