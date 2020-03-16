@@ -6,9 +6,10 @@ Yue Hu, Siheng Chen, Ya Zhang, Xiao Gu
 
 ###  [CVPR 2020 oral](http://cvpr2020.thecvf.com/), [paper](), [code](https://github.com/PhyllisH/NMMP),
 
-<img src="https://github.com/PhyllisH/NMMP/blob/master/images/Introduction.png" width = 50% height = 50% div align=center />
+<div style="align: center">
+<img src="https://github.com/PhyllisH/NMMP/blob/master/images/Introduction.png" width = 80% height = 80%>
+</div>
 
-![introduction](./images/Introduction.png)
 
 **Abstract:** Motion prediction is essential and challenging for autonomous vehicles and social robots. One challenge of motion prediction is to model the interaction among traffic actors, which could cooperate with each other to avoid collisions or form groups. To address this challenge, we propose neural motion message passing (NMMP) to explicitly model the interaction and learn representations for directed interactions between actors. Based on the proposed NMMP, we design the motion prediction systems for two settings: the pedestrian setting and the joint pedestrian and vehicle setting. Both systems share a common pattern: we use an individual branch to model the behavior of a single actor and an interactive branch to model the interaction between actors, while with different wrappers to handle the varied input formats and characteristics. The experimental results show that both systems outperform the previous state-of-the-art methods on several existing benchmarks. Besides, we provide interpretability for interaction learning.
 
@@ -18,7 +19,9 @@ Yue Hu, Siheng Chen, Ya Zhang, Xiao Gu
 
 
 ## Joint Pedestrian and Vehicle Motion Prediction
-![PMP_NMMP](./images/JMP-NMMP.png)
+<div style="align: center">
+<img src="https://github.com/PhyllisH/NMMP/blob/master/images/JMP-NMMP.png" width = 50% height = 50%>
+</div>
 
 
 ## Requirements
