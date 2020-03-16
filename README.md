@@ -2,26 +2,28 @@
 This repository contains the official PyTorch implementation of:
 
 
-**<a href="https://arxiv.org/abs/1803.10892">Collaborative Motion Predication via Neural Motion Message Passing</a>**
+**<a href="https://arxiv.org/abs/2003.3086942">Collaborative Motion Predication via Neural Motion Message Passing</a>**
 <br>
 Yue Hu, Siheng Chen, Ya Zhang, Xiao Gu
 <br>
-Presented at [CVPR 2020 oral](http://cvpr2020.thecvf.com/), [code](https://github.com/PhyllisH/NMMP),
+Presented at [CVPR 2020 oral](http://cvpr2020.thecvf.com/)
 
 <div align="center">
 <img src="https://github.com/PhyllisH/NMMP/blob/master/images/Introduction.png" width = 60% height = 60%>
 </div>
 
 
-**Abstract:** Motion prediction is essential and challenging for autonomous vehicles and social robots. One challenge of motion prediction is to model the interaction among traffic actors, which could cooperate with each other to avoid collisions or form groups. To address this challenge, we propose neural motion message passing (NMMP) to explicitly model the interaction and learn representations for directed interactions between actors. Based on the proposed NMMP, we design the motion prediction systems for two settings: the pedestrian setting and the joint pedestrian and vehicle setting. Both systems share a common pattern: we use an individual branch to model the behavior of a single actor and an interactive branch to model the interaction between actors, while with different wrappers to handle the varied input formats and characteristics. The experimental results show that both systems outperform the previous state-of-the-art methods on several existing benchmarks. Besides, we provide interpretability for interaction learning.
+**Abstract:** Motion prediction is essential and challenging for autonomous vehicles and social robots. One challenge of motion prediction is to model the interaction among traffic actors, which could cooperate with each other to avoid collisions or form groups. To address this challenge, we propose neural motion message passing (NMMP) to explicitly model the interaction and learn representations for directed interactions between actors. Besides, we provide interpretability for interaction learning.
 
+## Model
+The two frameworks are the same system under two different settings. (1) Two frameworks use the same NMMP to model interactions, and share the same architecture: individual and interactive branches. (2) Two frameworks provide distinct wrappers to handle different input formats and characteristics. JMP considers urban-driving scenes, which requires additional map information. Thus, JMP includes CNNs, while PMP does not; JMP considers vehicles and pedestrians, which requires to handle vehicle headings. Thus, JMP includes coordinate transforms, while PMP does not; PMP considers open-area scenes, where human behaviours are more uncertain. Thus PMP includes GAN, while JMP does not. Overall, those differences between two frameworks are small variations.
 
-## Pedestrian Motion Prediction
+### Pedestrian Motion Prediction
 ![PMP_NMMP](./images/PMP-NMMP.png)
 
 
-## Joint Pedestrian and Vehicle Motion Prediction
-<div align="center">
+### Joint Pedestrian and Vehicle Motion Prediction
+<div align="left">
 <img src="https://github.com/PhyllisH/NMMP/blob/master/images/JMP-NMMP.png" width = 60% height = 60%>
 </div>
 
