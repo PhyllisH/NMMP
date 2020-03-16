@@ -11,9 +11,9 @@ Presented at [CVPR 2020 oral](http://cvpr2020.thecvf.com/)
 **Abstract:** Motion prediction is essential and challenging for autonomous vehicles and social robots. One challenge of motion prediction is to model the interaction among traffic actors, which could cooperate with each other to avoid collisions or form groups. To address this challenge, we propose neural motion message passing (NMMP) to explicitly model the interaction and learn representations for directed interactions between actors. Besides, we provide interpretability for interaction learning.
 
 
-<center class="half">
-    <img src="https://github.com/PhyllisH/NMMP/blob/master/images/Introduction.png" width="300"/><img src="https://github.com/PhyllisH/NMMP/blob/master/images/NMMP.png" width="300"/>
-</center>
+<div align="center">
+    <img src="https://github.com/PhyllisH/NMMP/blob/master/images/Introduction.png" width="300"/><img src="https://github.com/PhyllisH/NMMP/blob/master/images/NMMP.png" width="400"/>
+</div>
 
 <div align="center">
 <img src="https://github.com/PhyllisH/NMMP/blob/master/images/Introduction.png" width = 60% height = 60%>
