@@ -7,7 +7,7 @@ Yue Hu, Siheng Chen, Ya Zhang, Xiao Gu
 ###  [CVPR 2020 oral](http://cvpr2020.thecvf.com/), [paper](), [code](https://github.com/PhyllisH/NMMP),
 
 <div style="align: center">
-<img src="https://github.com/PhyllisH/NMMP/blob/master/images/Introduction.png" width = 80% height = 80%>
+<img src="https://github.com/PhyllisH/NMMP/blob/master/images/Introduction.png" width = 60% height = 60%>
 </div>
 
 
@@ -20,7 +20,7 @@ Yue Hu, Siheng Chen, Ya Zhang, Xiao Gu
 
 ## Joint Pedestrian and Vehicle Motion Prediction
 <div style="align: center">
-<img src="https://github.com/PhyllisH/NMMP/blob/master/images/JMP-NMMP.png" width = 50% height = 50%>
+<img src="https://github.com/PhyllisH/NMMP/blob/master/images/JMP-NMMP.png" width = 70% height = 70%>
 </div>
 
 
