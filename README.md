@@ -12,8 +12,7 @@ Presented at [CVPR 2020 oral](http://cvpr2020.thecvf.com/)
 
 
 <center class="half">
-    <img src="https://github.com/PhyllisH/NMMP/blob/master/images/Introduction.png" width="300"/>
-    <img src="https://github.com/PhyllisH/NMMP/blob/master/images/NMMP.png" width="300"/>
+    <img src="https://github.com/PhyllisH/NMMP/blob/master/images/Introduction.png" width="300"/><img src="https://github.com/PhyllisH/NMMP/blob/master/images/NMMP.png" width="300"/>
 </center>
 
 <div align="center">
