@@ -1,13 +1,14 @@
 # NMMP
 This repository contains the official PyTorch implementation of:
 
-[**Collaborative Motion Predication via Neural Motion Message Passing**]() 
 
+**<a href="https://arxiv.org/abs/1803.10892">Collaborative Motion Predication via Neural Motion Message Passing</a>**
+<br>
 Yue Hu, Siheng Chen, Ya Zhang, Xiao Gu
+<br>
+Presented at [CVPR 2020 oral](http://cvpr2020.thecvf.com/), [code](https://github.com/PhyllisH/NMMP),
 
-[CVPR 2020 oral](http://cvpr2020.thecvf.com/), [code](https://github.com/PhyllisH/NMMP),
-
-<div style="align: center">
+<div align="center">
 <img src="https://github.com/PhyllisH/NMMP/blob/master/images/Introduction.png" width = 60% height = 60%>
 </div>
 
@@ -20,7 +21,7 @@ Yue Hu, Siheng Chen, Ya Zhang, Xiao Gu
 
 
 ## Joint Pedestrian and Vehicle Motion Prediction
-<div style="align: center">
+<div align="center">
 <img src="https://github.com/PhyllisH/NMMP/blob/master/images/JMP-NMMP.png" width = 60% height = 60%>
 </div>
 
