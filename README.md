@@ -2,7 +2,7 @@
 This repository contains the official PyTorch implementation of:
 
 
-**<a href="https://arxiv.org/abs/2003.3086942">Collaborative Motion Predication via Neural Motion Message Passing</a>**
+**<a href="https://arxiv.org/abs/2003.06594">Collaborative Motion Predication via Neural Motion Message Passing</a>**
 <br>
 Yue Hu, <a href="https://users.ece.cmu.edu/~sihengc/">Siheng Chen</a>, <a href="http://ir.sjtu.edu.cn/~yazhang/">Ya Zhang</a>, Xiao Gu
 <br>
